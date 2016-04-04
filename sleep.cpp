@@ -17,11 +17,22 @@ void Esperar(string r){
 	Sleep(y);
 }
 int main(int arg_c, char **arg_v){
+	string r;
 	if ( arg_c == 1 ){
-		cout <<"indique los segundos a esperar !"<<endl;
+		cout <<"proporcionar valores para los parametros siguientes:"<<endl;
+		cout <<"Segundos: ";
+		cin >> r;
+		cout <<""<<endl;
+		Esperar(r);
 	}else {
 
 		Esperar(arg_v[1]);
 	}
 	return 0;
 }
+
+
+/*ultima modificacion del codigo */
+/*03/04/16*/
+/*11:08*/
+/*se agregaron 2 lineas mas para que pueda indicar segundos si solo llamo a sleep y no indico parametros*/
