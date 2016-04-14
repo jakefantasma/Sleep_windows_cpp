@@ -30,9 +30,6 @@ int main(int arg_c, char **arg_v){
 	}
 	return 0;
 }
-
-
-/*ultima modificacion del codigo */
-/*03/04/16*/
-/*11:08*/
-/*se agregaron 2 lineas mas para que pueda indicar segundos si solo llamo a sleep y no indico parametros*/
+/*ultima modificacion del codigo el dia */
+/*13/04/16*/
+/*10:17 pm*/
